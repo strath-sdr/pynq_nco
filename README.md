@@ -1,6 +1,6 @@
 <img src="strathsdr_banner.png" width="100%">
 
-# Simply PYNQ NCO Overlay
+# PYNQ NCO Overlay
 This repository hosts a Numerically Controlled Oscillator (NCO) overlay compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) for the ZCU111, RFSoC2x2, and RFSoC4x2 development board.
 
 ## Quick Start
