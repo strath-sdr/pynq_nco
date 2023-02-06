@@ -30,13 +30,11 @@ This repository currently has no Jupyter notebooks. See https://github.com/strat
 ## Using the Project Files
 The following software is required to use the project files in this repository.
 - Vivado Design Suite 2020.2
-- System Generator for DSP
-- MATLAB R2020a
 
 ### Vivado
 This project can be built with Vivado from the command line. Open Vivado 2020.2 and execute the following into the tcl console:
 ```sh
-cd /<repository-location>/boards/<board-name>/rfsoc_sam/
+cd /<repository-location>/boards/<board-name>/pynq_nco/
 ```
 Now that we have moved into the correct directory, make the Vivado project by running the make commands below sequentially.
 ```sh
