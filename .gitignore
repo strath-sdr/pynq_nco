@@ -24,3 +24,7 @@
 
 # Ignore ./rfstrath/rfstrath/
 **/block_design
+
+# Ignore builds
+*\bitstream
+pynq_nco.tar.gz
