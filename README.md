@@ -1,7 +1,12 @@
 <img src="strathsdr_banner.png" width="100%">
 
 # PYNQ NCO Overlay
-This repository hosts a Numerically Controlled Oscillator (NCO) overlay compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) for the ZCU111, RFSoC2x2, and RFSoC4x2 development board.
+This repository hosts a Numerically Controlled Oscillator (NCO) overlay compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) for the following development boards:
+* [ZCU208](https://www.xilinx.com/products/boards-and-kits/zcu208.html),
+* [ZCU216](https://www.xilinx.com/products/boards-and-kits/zcu216.html),
+* [ZCU111](https://www.xilinx.com/products/boards-and-kits/zcu111.html),
+* [RFSoC4x2](https://www.xilinx.com/support/university/xup-boards/RFSoC4x2.html),
+* [RFSoC2x2](https://www.xilinx.com/support/university/xup-boards/RFSoC2x2.html).
 
 ## Quick Start
 Follow the instructions below to install the project now. **You will need to give your board access to the internet**.
