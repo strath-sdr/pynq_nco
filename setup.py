@@ -33,7 +33,7 @@ setup(
     name=package_name,
     version='1.0.1',
     install_requires=[
-        'pynq==2.7',
+        'pynq>=2.7',
     ],
     author="David Northcote",
     packages=find_packages(),
