@@ -27,7 +27,7 @@ Follow the instructions below to install the project now. **You will need to giv
 Run the code below in the jupyter terminal to install the project.
 
 ```sh
-pip3 install https://github.com/strath-sdr/pynq_nco/releases/download/v1.0.1/pynq_nco.tar.gz
+pip3 install https://github.com/strath-sdr/pynq_nco/releases/download/v1.0.2/pynq_nco.tar.gz
 ```
 
 This repository currently has no Jupyter notebooks. See https://github.com/strath-sdr/RFSoC-Book for compatible notebooks.
