@@ -10,6 +10,6 @@ class NumericalOverlay(Overlay):
         
         if bitfile_name is None:
             this_dir = os.path.dirname(__file__)
-            bitfile_name = os.path.join(this_dir, 'bitstream', 'pynq_nco.bit')
+            bitfile_name = os.path.join(this_dir, 'pynq_nco', 'bitstream', 'pynq_nco.bit')
             
         super().__init__(bitfile_name, **kwargs)

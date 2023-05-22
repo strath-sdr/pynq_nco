@@ -1,11 +1,16 @@
 <img src="strathsdr_banner.png" width="100%">
 
 # PYNQ NCO Overlay
-This repository hosts a Numerically Controlled Oscillator (NCO) overlay compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) for the ZCU111, RFSoC2x2, and RFSoC4x2 development board.
+This repository hosts a Numerically Controlled Oscillator (NCO) overlay compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) and greater for the following development boards:
+* [ZCU208](https://www.xilinx.com/products/boards-and-kits/zcu208.html),
+* [ZCU216](https://www.xilinx.com/products/boards-and-kits/zcu216.html),
+* [ZCU111](https://www.xilinx.com/products/boards-and-kits/zcu111.html),
+* [RFSoC4x2](https://www.xilinx.com/support/university/xup-boards/RFSoC4x2.html),
+* [RFSoC2x2](https://www.xilinx.com/support/university/xup-boards/RFSoC2x2.html).
 
 ## Quick Start
 Follow the instructions below to install the project now. **You will need to give your board access to the internet**.
-* Power on your RFSoC development board with an SD Card containing a fresh PYNQ v2.7 image.
+* Power on your RFSoC development board with an SD Card containing a fresh PYNQ v2.7 image or greater.
 * Navigate to Jupyter Labs by opening a browser (preferably Chrome) and connecting to `http://<board_ip_address>:9090/lab`.
 * We need to open a terminal in Jupyter Lab. Firstly, open a launcher window as shown in the figure below:
 
@@ -22,7 +27,7 @@ Follow the instructions below to install the project now. **You will need to giv
 Run the code below in the jupyter terminal to install the project.
 
 ```sh
-pip3 install https://github.com/strath-sdr/pynq_nco/releases/download/v1.0.1/pynq_nco.tar.gz
+pip3 install https://github.com/strath-sdr/pynq_nco/releases/download/v1.0.2/pynq_nco.tar.gz
 ```
 
 This repository currently has no Jupyter notebooks. See https://github.com/strath-sdr/RFSoC-Book for compatible notebooks.
