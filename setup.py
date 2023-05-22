@@ -58,7 +58,7 @@ class package_installer():
               description=self.description)
 
 package_installer(name = "pynq_nco",
-                  version = "1.0.2",
+                  version = "1.1.0",
                   description  = "PYNQ NCO Example @ StrathSDR.",
                   author = "David Northcote",
                   email = "david.northcote@strath.ac.uk",
